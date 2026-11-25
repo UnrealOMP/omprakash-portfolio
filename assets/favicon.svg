@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0B0E14"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="url(#borderGrad)" stroke-width="1.5" stroke-opacity="0.4"/>
+  <!-- 3D Isometric Cube Wireframe + Monogram -->
+  <path d="M32 12L50 22.5V43.5L32 54L14 43.5V22.5L32 12Z" fill="url(#cubeTop)" fill-opacity="0.18" stroke="url(#amberGlow)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M32 12V33M32 33L50 22.5M32 33L14 22.5M32 33V54" stroke="url(#amberGlow)" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.65"/>
+  <circle cx="44" cy="16" r="4.5" fill="url(#orbGrad)"/>
+  <defs>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A5A"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="14" y1="12" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A5A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="14" y1="12" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB870"/>
+      <stop offset="0.6" stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#64748B"/>
+    </linearGradient>
+    <radialGradient id="orbGrad" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(43 15) rotate(45) scale(6)">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="0.5" stop-color="#FF9A5A"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </radialGradient>
+  </defs>
+</svg>
